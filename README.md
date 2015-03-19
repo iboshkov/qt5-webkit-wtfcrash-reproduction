@@ -1,7 +1,7 @@
 # qt5-webkit-wtfcrash-reproduction
 Simple reproduction code for a strange bug I encountered.
 Here's the output from WinDbg:
-
+```
 ASSERTION FAILED: !needsLayout()
 c:\work\build\qt5_workdir\w\s\qtwebkit\source\webcore\rendering\RenderView.cpp(409) : WebCore::RenderView::paint
 1   10FF6537
@@ -41,3 +41,4 @@ This exception may be expected and handled.
 *** WARNING: Unable to verify checksum for F:\gsoc\BuildmLearn-Toolkit\install\Qt5WebKitd.dll
 Qt5WebKitd!WTFCrash+0x17:
 10ff6537 c705efbeadbb00000000 mov dword ptr ds:[0BBADBEEFh],0 ds:002b:bbadbeef=????????
+```
