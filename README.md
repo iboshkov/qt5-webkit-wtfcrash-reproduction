@@ -1,5 +1,6 @@
-# qt5-webkit-wtfcrash-reproduction
+# Qt5 WTFCrash 0x17
 Simple reproduction code for a strange bug I encountered.
+
 Here's the output from WinDbg:
 ```
 ASSERTION FAILED: !needsLayout()
