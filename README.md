@@ -1,4 +1,4 @@
-# Qt5 WTFCrash 0x17
+# Qt5 WTFCrash 0x17 ([QTBUG-45102](https://bugreports.qt.io/browse/QTBUG-45102))
 Simple reproduction code for a strange bug I encountered.
 
 Here's the output from WinDbg:
